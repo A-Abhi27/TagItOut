@@ -300,3 +300,12 @@ footer{
         margin-top: 80px;
     }
 }
+@media screen and (max-width: 350px) {
+    .searchlink,header .headerlinks{
+      left: 2.2%;
+      font-size: 0.9rem;
+    }
+    header .header{
+        font-size: 0.95rem;
+    }
+}
