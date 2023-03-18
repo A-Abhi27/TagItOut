@@ -18,6 +18,12 @@
     z-index: 5;
 }
 
+@media (max-width: 550px) {
+  .media {
+    width: 46%;
+  }
+}
+
 .poster {
   border-radius: 10px;
 }
@@ -38,34 +44,3 @@
   padding-bottom: 3px;
   color: black;
 }
-
-@media screen and (max-width: 1400px) {
-  .media {
-    width: 285px;
-    padding: 8px;
-    margin: 20px;
-  }
-  }
-
-@media screen and (max-width: 1200px) {
-  .media {
-    width: 235px;
-    padding: 8px;
-    margin: 20px;
-  }
-  }
-
-@media screen and (max-width: 435px) {
-.media {
-  width: 150px;
-  padding: 8px;
-  margin: 20px;
-}
-}
-@media screen and (max-width: 380px) {
-  .media {
-    width: 125px;
-    padding: 8px;
-    margin: 20px;
-  }
-  }

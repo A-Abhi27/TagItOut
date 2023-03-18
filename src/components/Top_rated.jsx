@@ -29,8 +29,8 @@ function TopRated(){
     }
   };
   return (
-    <div>
-    <div className='Th'><span>Top Rated ⏩</span></div>
+    <div >
+        <h5 style={{marginLeft:"3%",marginBottom:"25px",marginTop:"10px" ,color:"white",fontSize:"30px"}}>Top Rated ⏩</h5>
       <Carousel
         className="carousels"
         responsive={responsive}
@@ -49,7 +49,7 @@ function TopRated(){
       >
         {content.map((img,i) => <div key={img.id}><Link to={`/movie/${img.id}`} style={{textDecoration:"none"}}>
         <img className='img' src={url+img.poster_path} alt='img'/>
-        <div className='nam' style={{color:"white", textAlign:"center",marginTop:"10px"}}>{img?img.original_title:""}</div></Link></div>)}
+        <div style={{color:"white", textAlign:"center",marginTop:"10px"}}>{img?img.original_title:""}</div></Link></div>)}
       </Carousel>
     </div>
   );

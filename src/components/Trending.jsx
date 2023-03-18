@@ -18,6 +18,8 @@ function Trending(){
     setContent(data.results);
   };
 
+  const styles={margin:"2% 3%",color:"white",fontSize:"30px"};
+
   useEffect(() => {
     fetchTrending();
   }, []);
@@ -30,9 +32,8 @@ const responsive = {
     }
   };
 
-    return <div>
-    <div className='carousel'>
-    <div className='Trend'><span>Trending Now 🔥</span></div>
+    return <div><div className='carousel'>
+    <h5 style={styles}>Trending Now 🔥</h5>
     <Carousel 
          responsive={responsive}
          swipeable={true}
