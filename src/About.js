@@ -14,7 +14,7 @@ const About = () => {
             <h3>Abhishek Anand</h3>
              <p>✉ : abhishek200097@gmail.com</p>
              <p><InstagramIcon fontSize='small'/> : ig_abhishek.27</p>
-             <p>Role : WEb-developer</p>
+             <p>Role : Web Developer</p>
              </div>
              </div>
              <div className="member">
@@ -25,7 +25,7 @@ const About = () => {
             <h3>Arjun</h3>
              <p>✉ : arjunkumar100905@gmail.com</p>
              <p><InstagramIcon fontSize='small'/> : thisisarjunsaini_2005</p>
-             <p>Role : WEb-developer</p>
+             <p>Role : Web Developer</p>
              </div>
              </div>
              <div className="member">
@@ -36,7 +36,7 @@ const About = () => {
             <h3>Aditya Singh</h3>
              <p>✉ : as2033278@gmail.com</p>
              <p><InstagramIcon fontSize='small'/> : adisingh9086</p>
-             <p>Role : WEB-Developer</p>
+             <p>Role : Web Developer</p>
              </div>
              </div>
         </div>

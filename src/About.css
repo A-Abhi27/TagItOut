@@ -44,7 +44,7 @@
       position: relative;
       margin-top: 50px;
       margin-bottom: 80px;
-      font-size: 4rem;
+      font-size: 3rem;
       color: rgb(151, 205, 205);
       font-family: 'Lora', serif;
   }
@@ -55,5 +55,8 @@
           margin-right: 2vw;
           float:right
       }
+      .thanks{
+        font-size: 2rem;
+    }
   }
   

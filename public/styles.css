@@ -33,7 +33,7 @@ header .header{
 header .headerlinks,.searchlink{
     position: relative;
     left: 51%;
-    padding: 5px 5px;
+    padding: 3px 4px;
     margin-right: 1vw;
     font-size: 1.3rem;
     color: whitesmoke;
@@ -262,8 +262,9 @@ footer{
 }
 @media screen and (max-width: 375px) {
     .searchlink,header .headerlinks{
-      left: 3%;
+      left: 2%;
       font-size: 0.9rem;
+      padding: 1.5px 3px;
     }
     .lh{
         margin-top: 110px;
@@ -302,8 +303,8 @@ footer{
 }
 @media screen and (max-width: 350px) {
     .searchlink,header .headerlinks{
-      left: 2.2%;
-      font-size: 0.9rem;
+      left: 1.8%;
+      font-size: 0.8rem;
     }
     header .header{
         font-size: 0.95rem;
