@@ -55,17 +55,24 @@
   }
   }
 
-@media screen and (max-width: 435px) {
+@media screen and (max-width: 800px) {
 .media {
-  width: 150px;
+  width: 190px;
   padding: 8px;
-  margin: 20px;
+  margin: 15px;
 }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 435px) {
+  .media {
+    width: 150px;
+    padding: 8px;
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 390px) {
   .media {
     width: 125px;
     padding: 8px;
-    margin: 20px;
+    margin: 15px;
   }
   }
