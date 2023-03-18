@@ -30,7 +30,7 @@ function Upcoming(){
   };
   return (
     <div>
-        <h5 style={{marginLeft:"3%",marginBottom:"25px",marginTop:"10px" ,color:"white",fontSize:"30px"}}>Upcoming ⏩</h5>
+    <div className='up'><span>Upcoming ⏩</span></div> 
       <Carousel
         className="carousels"
         responsive={responsive}
@@ -49,7 +49,7 @@ function Upcoming(){
       >
         {content.map((img) => <div key={img.id}><Link to={`/movie/${img.id}`} style={{textDecoration:"none"}}>
         <img className='img' src={url+img.poster_path} alt='img'/>
-        <div style={{color:"white", textAlign:"center",marginTop:"10px"}}>{img?img.original_title:""}</div></Link></div>)}
+        <div className='nam' style={{color:"white", textAlign:"center",marginTop:"10px"}}>{img?img.original_title:""}</div></Link></div>)}
       </Carousel>
     </div>
   );

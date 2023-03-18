@@ -15,8 +15,6 @@ function Latest(){
     setContent(data.results);
   };
 
-  const styles={marginLeft:"3%",marginTop:"10%",marginBottom:"25px" ,color:"white",fontSize:"30px"};
-
   useEffect(() => {
     fetchTrending();
   }, []);
@@ -32,7 +30,7 @@ function Latest(){
   };
   return (
     <div className="latest" style={{paddingLeft:"10px"}}>
-        <div className="lh"><h5 style={styles}>Latest ⏩</h5></div>
+        <div className="lh"><span>Latest ⏩</span></div>
       <Carousel
         className="carousels"
         responsive={responsive}
@@ -51,7 +49,7 @@ function Latest(){
       >
         {content.map((img) => <div key={img.id}><Link to={`/movie/${img.id}`} style={{textDecoration:"none"}}>
         <img className='img' src={url+img.poster_path} alt='img'/> 
-        <div style={{color:"white", textAlign:"center",marginTop:"10px"}}>{img?img.original_title:""}</div></Link>
+        <div className='nam' style={{color:"white", textAlign:"center",marginTop:"10px"}}>{img?img.original_title:""}</div></Link>
         </div>)}
       </Carousel>
     </div>
